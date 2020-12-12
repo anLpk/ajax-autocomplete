@@ -18,7 +18,7 @@ const searchPlace = (event) => {
         data.words.forEach((word) => {
           // console.log(result);
           const search = `<p>${word}</p>`;
-          results.insertAdjacentHTML("beforeend", search);
+          matchList.insertAdjacentHTML("beforeend", search);
         });
     });
 };
